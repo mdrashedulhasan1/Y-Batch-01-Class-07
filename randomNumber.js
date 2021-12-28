@@ -1,0 +1,10 @@
+var num = 3.465;
+var floorNumber = Math.floor(num);
+var ceilNumber = Math.ceil(num);
+var roundNumber = Math.round(num);
+var randomNumber = Math.random(num)*6;
+var updateRandomNumber = Math.round(randomNumber);
+console.log(floorNumber);
+console.log(ceilNumber);
+console.log(roundNumber);
+console.log(updateRandomNumber);
